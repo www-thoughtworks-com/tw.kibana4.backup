@@ -1,0 +1,397 @@
+[
+  {
+    "_id": "QA-Dashboard",
+    "_type": "dashboard",
+    "_source": {
+      "title": "QA Dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":9,\"id\":\"Hits\",\"row\":1,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Discover-Visualisation\",\"row\":1,\"size_x\":8,\"size_y\":5,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Unique-users\",\"row\":6,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},{\"col\":9,\"id\":\"Traffic-from-image-servers\",\"row\":4,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\"}]",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"query\",\"negate\":false,\"value\":\"http_status_code:[200 TO 299]\"},\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"http_status_code:[200 TO 299]\"}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"query\",\"negate\":false,\"value\":\"http_status_code:[300 TO 399]\"},\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"http_status_code:[300 TO 399]\"}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"query\",\"negate\":false,\"value\":\"http_status_code:[400 TO 499]\"},\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"http_status_code:[400 TO 499]\"}}},{\"query\":{\"query_string\":{\"query\":\"@source_host:wwwimageqa*\",\"analyze_wildcard\":true}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Default-Dashboard",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Default Dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":9,\"id\":\"Hits\",\"row\":1,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Discover-Visualisation\",\"row\":1,\"size_x\":8,\"size_y\":5,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Unique-users\",\"row\":6,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},{\"col\":9,\"id\":\"Traffic-from-image-servers\",\"row\":4,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\"}]",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"query\",\"negate\":false,\"value\":\"http_status_code:[200 TO 299]\"},\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"http_status_code:[200 TO 299]\"}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"query\",\"negate\":false,\"value\":\"http_status_code:[300 TO 399]\"},\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"http_status_code:[300 TO 399]\"}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"query\",\"negate\":false,\"value\":\"http_status_code:[400 TO 499]\"},\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"http_status_code:[400 TO 499]\"}}},{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Prod-Edit-Dashboard",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Prod Edit Dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":9,\"id\":\"Hits\",\"row\":1,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Discover-Visualisation\",\"row\":1,\"size_x\":8,\"size_y\":5,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Unique-users\",\"row\":6,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},{\"col\":9,\"id\":\"Traffic-from-image-servers\",\"row\":4,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\"},{\"col\":3,\"id\":\"Application-logs-ERROR-vs-All-levels\",\"row\":6,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Content1-Webhooks\",\"row\":8,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"Content2-Webhooks\",\"row\":8,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"}]",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"query\",\"negate\":false,\"value\":\"http_status_code:[200 TO 299]\"},\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"http_status_code:[200 TO 299]\"}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"query\",\"negate\":false,\"value\":\"http_status_code:[300 TO 399]\"},\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"http_status_code:[300 TO 399]\"}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"query\",\"negate\":false,\"value\":\"http_status_code:[400 TO 499]\"},\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"http_status_code:[400 TO 499]\"}}},{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"@source_host:wwwimageprodedit*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Production-Dashboard",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Production Dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":9,\"id\":\"Hits\",\"row\":1,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Discover-Visualisation\",\"row\":1,\"size_x\":8,\"size_y\":5,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Unique-users\",\"row\":6,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},{\"col\":9,\"id\":\"Traffic-from-image-servers\",\"row\":4,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\"},{\"col\":3,\"id\":\"Application-logs-ERROR-vs-All-levels\",\"row\":6,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},{\"id\":\"Content1-Webhooks\",\"type\":\"visualization\",\"size_x\":2,\"size_y\":2,\"col\":5,\"row\":6},{\"id\":\"Content2-Webhooks\",\"type\":\"visualization\",\"size_x\":2,\"size_y\":2,\"col\":7,\"row\":6}]",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"query\",\"negate\":false,\"value\":\"http_status_code:[200 TO 299]\"},\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"http_status_code:[200 TO 299]\"}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"query\",\"negate\":false,\"value\":\"http_status_code:[300 TO 399]\"},\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"http_status_code:[300 TO 399]\"}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"query\",\"negate\":false,\"value\":\"http_status_code:[400 TO 499]\"},\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"http_status_code:[400 TO 499]\"}}},{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"@source_host:wwwimageprod*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Discover",
+    "_type": "search",
+    "_source": {
+      "title": "Discover",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "http_status_code",
+        "http_host",
+        "@source_host",
+        "http_request"
+      ],
+      "sort": [
+        "http_status_code",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"logstash-*\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}}},\"filter\":[{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"@version\",\"negate\":false,\"value\":\"1\"},\"query\":{\"match\":{\"@version\":{\"query\":\"1\",\"type\":\"phrase\"}}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"tags\",\"negate\":false,\"value\":\"nginx_access_log\"},\"query\":{\"match\":{\"tags\":{\"query\":\"nginx_access_log\",\"type\":\"phrase\"}}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"http_status_code\",\"negate\":false,\"value\":\"200\"},\"query\":{\"match\":{\"http_status_code\":{\"query\":\"200\",\"type\":\"phrase\"}}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"http_status_code\",\"negate\":false,\"value\":\"404\"},\"query\":{\"match\":{\"http_status_code\":{\"query\":\"404\",\"type\":\"phrase\"}}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Prod-Discover",
+    "_type": "search",
+    "_source": {
+      "title": "Prod Discover",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "http_status_code",
+        "http_host",
+        "@source_host",
+        "http_client_ip",
+        "http_request"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"logstash-*\",\"query\":{\"query_string\":{\"query\":\"@source_host:wwwimageprod*\",\"analyze_wildcard\":true}},\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}}},\"filter\":[{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"@version\",\"negate\":false,\"value\":\"1\"},\"query\":{\"match\":{\"@version\":{\"query\":\"1\",\"type\":\"phrase\"}}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"tags\",\"negate\":false,\"value\":\"nginx_access_log\"},\"query\":{\"match\":{\"tags\":{\"query\":\"nginx_access_log\",\"type\":\"phrase\"}}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"http_status_code\",\"negate\":false,\"value\":\"200\"},\"query\":{\"match\":{\"http_status_code\":{\"query\":\"200\",\"type\":\"phrase\"}}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"http_status_code\",\"negate\":false,\"value\":\"404\"},\"query\":{\"match\":{\"http_status_code\":{\"query\":\"404\",\"type\":\"phrase\"}}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Jobs-requests",
+    "_type": "search",
+    "_source": {
+      "title": "Jobs requests",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[logstash-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"jobs\"}},\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Application-Logs-Studios-ERROR",
+    "_type": "search",
+    "_source": {
+      "title": "Application Logs Studios - ERROR",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "@source_host",
+        "applog_level",
+        "applog_elapsed_ms",
+        "applog_session",
+        "applog_requested_uri",
+        "applog_message",
+        "applog_stacktrace"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[logstash-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"@source_host : wwwimagestudios*\",\"analyze_wildcard\":true}},\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[{\"meta\":{\"disabled\":false,\"index\":\"[logstash-]YYYY.MM.DD\",\"key\":\"applog_level\",\"negate\":false,\"value\":\"ERROR\"},\"query\":{\"match\":{\"applog_level\":{\"query\":\"ERROR\",\"type\":\"phrase\"}}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Application-Logs",
+    "_type": "search",
+    "_source": {
+      "title": "Application Logs",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "@source_host",
+        "applog_level",
+        "applog_elapsed_ms",
+        "applog_session",
+        "applog_requested_uri",
+        "applog_message",
+        "applog_stacktrace"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[logstash-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[{\"meta\":{\"negate\":false,\"index\":\"[logstash-]YYYY.MM.DD\",\"key\":\"tags\",\"value\":\"sinatra_log_frontend\",\"disabled\":false},\"query\":{\"match\":{\"tags\":{\"query\":\"sinatra_log_frontend\",\"type\":\"phrase\"}}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Application-Logs-ERROR",
+    "_type": "search",
+    "_source": {
+      "title": "Application Logs - ERROR",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "@source_host",
+        "applog_level",
+        "applog_elapsed_ms",
+        "applog_session",
+        "applog_requested_uri",
+        "applog_message",
+        "applog_stacktrace"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[logstash-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[{\"meta\":{\"disabled\":false,\"index\":\"[logstash-]YYYY.MM.DD\",\"key\":\"applog_level\",\"negate\":false,\"value\":\"ERROR\"},\"query\":{\"match\":{\"applog_level\":{\"query\":\"ERROR\",\"type\":\"phrase\"}}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Application-Logs-ERROR-Prod",
+    "_type": "search",
+    "_source": {
+      "title": "Application Logs - ERROR Prod",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "@source_host",
+        "applog_level",
+        "applog_elapsed_ms",
+        "applog_session",
+        "applog_requested_uri",
+        "applog_message",
+        "applog_stacktrace"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[logstash-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"@source_host = wwwimageprod*\",\"analyze_wildcard\":true}},\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[{\"meta\":{\"disabled\":false,\"index\":\"[logstash-]YYYY.MM.DD\",\"key\":\"applog_level\",\"negate\":false,\"value\":\"ERROR\"},\"query\":{\"match\":{\"applog_level\":{\"query\":\"ERROR\",\"type\":\"phrase\"}}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Content1-Webhooks",
+    "_type": "search",
+    "_source": {
+      "title": "Content1 Webhooks",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "http_status_code",
+        "http_host",
+        "@source_host",
+        "http_request"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"logstash-*\",\"query\":{\"query_string\":{\"query\":\"http_host:\\\"content1.prod.webteam.thoughtworks.com\\\"\",\"analyze_wildcard\":true}},\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"@version\",\"negate\":false,\"value\":\"1\"},\"query\":{\"match\":{\"@version\":{\"query\":\"1\",\"type\":\"phrase\"}}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"tags\",\"negate\":false,\"value\":\"nginx_access_log\"},\"query\":{\"match\":{\"tags\":{\"query\":\"nginx_access_log\",\"type\":\"phrase\"}}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"http_status_code\",\"negate\":false,\"value\":\"200\"},\"query\":{\"match\":{\"http_status_code\":{\"query\":\"200\",\"type\":\"phrase\"}}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"http_status_code\",\"negate\":false,\"value\":\"404\"},\"query\":{\"match\":{\"http_status_code\":{\"query\":\"404\",\"type\":\"phrase\"}}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Content2-Webhooks",
+    "_type": "search",
+    "_source": {
+      "title": "Content2 Webhooks",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "http_status_code",
+        "http_host",
+        "@source_host",
+        "http_request"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"logstash-*\",\"query\":{\"query_string\":{\"query\":\"http_host:\\\"content2.prod.webteam.thoughtworks.com\\\"\",\"analyze_wildcard\":true}},\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"@version\",\"negate\":false,\"value\":\"1\"},\"query\":{\"match\":{\"@version\":{\"query\":\"1\",\"type\":\"phrase\"}}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"tags\",\"negate\":false,\"value\":\"nginx_access_log\"},\"query\":{\"match\":{\"tags\":{\"query\":\"nginx_access_log\",\"type\":\"phrase\"}}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"http_status_code\",\"negate\":false,\"value\":\"200\"},\"query\":{\"match\":{\"http_status_code\":{\"query\":\"200\",\"type\":\"phrase\"}}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"http_status_code\",\"negate\":false,\"value\":\"404\"},\"query\":{\"match\":{\"http_status_code\":{\"query\":\"404\",\"type\":\"phrase\"}}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Discover-Visualisation",
+    "_type": "visualization",
+    "_source": {
+      "title": "Discover Visualisation",
+      "visState": "{\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"mode\":\"stacked\",\"defaultYExtents\":false,\"spyPerPage\":10},\"aggs\":[{\"id\":\"1\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"2\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"3\",\"type\":\"filters\",\"schema\":\"group\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"http_status_code:20*\",\"analyze_wildcard\":true}}}},{\"input\":{\"query\":{\"query_string\":{\"query\":\"http_status_code:30*\",\"analyze_wildcard\":true}}}},{\"input\":{\"query\":{\"query_string\":{\"query\":\"http_status_code:40*\",\"analyze_wildcard\":true}}}},{\"input\":{\"query\":{\"query_string\":{\"query\":\"http_status_code:50*\",\"analyze_wildcard\":true}}}}]}}],\"listeners\":{}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"logstash-*\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"@version\",\"negate\":false,\"value\":\"1\"},\"query\":{\"match\":{\"@version\":{\"query\":\"1\",\"type\":\"phrase\"}}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"tags\",\"negate\":false,\"value\":\"nginx_access_log\"},\"query\":{\"match\":{\"tags\":{\"query\":\"nginx_access_log\",\"type\":\"phrase\"}}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"http_status_code\",\"negate\":false,\"value\":\"200\"},\"query\":{\"match\":{\"http_status_code\":{\"query\":\"200\",\"type\":\"phrase\"}}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"http_status_code\",\"negate\":false,\"value\":\"404\"},\"query\":{\"match\":{\"http_status_code\":{\"query\":\"404\",\"type\":\"phrase\"}}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "New-Visualization",
+    "_type": "visualization",
+    "_source": {
+      "title": "New Visualization",
+      "visState": "{\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"mode\":\"stacked\",\"defaultYExtents\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"logaggregatordev05\",\"analyze_wildcard\":true}}}},{\"input\":{\"query\":{\"query_string\":{\"query\":\"logaggregatordev06\",\"analyze_wildcard\":true}}}}]}},{\"id\":\"2\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}}],\"listeners\":{}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"logstash-*\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"@version\",\"negate\":false,\"value\":\"1\"},\"query\":{\"match\":{\"@version\":{\"query\":\"1\",\"type\":\"phrase\"}}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"tags\",\"negate\":false,\"value\":\"nginx_access_log\"},\"query\":{\"match\":{\"tags\":{\"query\":\"nginx_access_log\",\"type\":\"phrase\"}}}},{\"meta\":{\"disabled\":true,\"index\":\"logstash-*\",\"key\":\"http_status_code\",\"negate\":false,\"value\":\"200\"},\"query\":{\"match\":{\"http_status_code\":{\"query\":\"200\",\"type\":\"phrase\"}}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Hits",
+    "_type": "visualization",
+    "_source": {
+      "title": "Hits",
+      "visState": "{\"type\":\"pie\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"http_status_code:[200 TO 299]\",\"analyze_wildcard\":true}}}},{\"input\":{\"query\":{\"query_string\":{\"query\":\"http_status_code:[300 TO 399]\",\"analyze_wildcard\":true}}}},{\"input\":{\"query\":{\"query_string\":{\"query\":\"http_status_code:[400 TO 499]\",\"analyze_wildcard\":true}}}},{\"input\":{\"query\":{\"query_string\":{\"query\":\"http_status_code:[500 TO 599]\",\"analyze_wildcard\":true}}}}]}}],\"listeners\":{}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"logstash-*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Unique-users",
+    "_type": "visualization",
+    "_source": {
+      "title": "Unique users",
+      "visState": "{\"aggs\":[{\"id\":\"1\",\"params\":{\"field\":\"http_client_ip\"},\"schema\":\"metric\",\"type\":\"cardinality\"}],\"listeners\":{},\"params\":{\"fontSize\":60},\"type\":\"metric\"}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"logstash-*\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Traffic-from-image-servers",
+    "_type": "visualization",
+    "_source": {
+      "title": "Traffic from image servers",
+      "visState": "{\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"mode\":\"grouped\",\"defaultYExtents\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"@source_host\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"logstash-*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Github-Webhooks",
+    "_type": "visualization",
+    "_source": {
+      "title": "Github Webhooks",
+      "visState": "{\"type\":\"pie\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"http_status_code:200\",\"analyze_wildcard\":true}}}},{\"input\":{\"query\":{\"query_string\":{\"query\":\"http_status_code:[0 TO 199] OR http_status_code:[201 TO 600]\",\"analyze_wildcard\":true}}}}]}}],\"listeners\":{}}",
+      "description": "",
+      "savedSearchId": "WebHook-Triggers",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Content1-Webhooks",
+    "_type": "visualization",
+    "_source": {
+      "title": "Content1 Webhooks",
+      "visState": "{\"type\":\"pie\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":false,\"isDonut\":false,\"defaultYExtents\":true},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"http_status_code:200\",\"analyze_wildcard\":true}}}},{\"input\":{\"query\":{\"query_string\":{\"query\":\"http_status_code:[0 TO 199] OR http_status_code:[201 TO 999]\",\"analyze_wildcard\":true}}}}]}}],\"listeners\":{}}",
+      "description": "",
+      "savedSearchId": "Content1-Webhooks",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Content2-Webhooks",
+    "_type": "visualization",
+    "_source": {
+      "title": "Content2 Webhooks",
+      "visState": "{\"type\":\"pie\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":false,\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"http_status_code:200\",\"analyze_wildcard\":true}}}},{\"input\":{\"query\":{\"query_string\":{\"query\":\"http_status_code:[0 TO 199] OR http_status_code:[201 TO 999]\",\"analyze_wildcard\":true}}}}]}}],\"listeners\":{}}",
+      "description": "",
+      "savedSearchId": "Content2-Webhooks",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Application-logs-ERROR-vs-All-levels",
+    "_type": "visualization",
+    "_source": {
+      "title": "Application logs - ERROR vs All levels",
+      "visState": "{\"type\":\"pie\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"applog_level\",\"size\":2,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[logstash-]YYYY.MM.DD\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  }
+]
